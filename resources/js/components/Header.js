@@ -14,7 +14,7 @@ export default class Header extends Component {
                     <header>
                         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                             < div className = "container" >
-                            <a className="navbar-brand" href="#">Carousel</a>
+                            <Link className="navbar-brand" to="/"> Laravel React </Link>
                             <button className="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                                     aria-label="Toggle navigation">
